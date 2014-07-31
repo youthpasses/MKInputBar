@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4BB19E71989D705008F7C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19E61989D705008F7C92 /* Foundation.framework */; };
+		A4BB19E91989D705008F7C92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19E81989D705008F7C92 /* CoreGraphics.framework */; };
+		A4BB19EB1989D705008F7C92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19EA1989D705008F7C92 /* UIKit.framework */; };
+		A4BB19F11989D705008F7C92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4BB19EF1989D705008F7C92 /* InfoPlist.strings */; };
+		A4BB19F31989D705008F7C92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB19F21989D705008F7C92 /* main.m */; };
+		A4BB19F71989D705008F7C92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB19F61989D705008F7C92 /* AppDelegate.m */; };
+		A4BB19F91989D705008F7C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BB19F81989D705008F7C92 /* Images.xcassets */; };
+		A4BB1A001989D705008F7C92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19FF1989D705008F7C92 /* XCTest.framework */; };
+		A4BB1A011989D705008F7C92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19E61989D705008F7C92 /* Foundation.framework */; };
+		A4BB1A021989D705008F7C92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19EA1989D705008F7C92 /* UIKit.framework */; };
+		A4BB1A0A1989D705008F7C92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4BB1A081989D705008F7C92 /* InfoPlist.strings */; };
+		A4BB1A0C1989D705008F7C92 /* MKInputBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB1A0B1989D705008F7C92 /* MKInputBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4BB1A031989D705008F7C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4BB19DB1989D705008F7C92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4BB19E21989D705008F7C92;
+			remoteInfo = MKInputBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4BB19E31989D705008F7C92 /* MKInputBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKInputBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB19E61989D705008F7C92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4BB19E81989D705008F7C92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4BB19EA1989D705008F7C92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4BB19EE1989D705008F7C92 /* MKInputBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKInputBar-Info.plist"; sourceTree = "<group>"; };
+		A4BB19F01989D705008F7C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4BB19F21989D705008F7C92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4BB19F41989D705008F7C92 /* MKInputBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKInputBar-Prefix.pch"; sourceTree = "<group>"; };
+		A4BB19F51989D705008F7C92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4BB19F61989D705008F7C92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4BB19F81989D705008F7C92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4BB19FE1989D705008F7C92 /* MKInputBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKInputBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4BB19FF1989D705008F7C92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A4BB1A071989D705008F7C92 /* MKInputBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKInputBarTests-Info.plist"; sourceTree = "<group>"; };
+		A4BB1A091989D705008F7C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4BB1A0B1989D705008F7C92 /* MKInputBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKInputBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4BB19E01989D705008F7C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB19E91989D705008F7C92 /* CoreGraphics.framework in Frameworks */,
+				A4BB19EB1989D705008F7C92 /* UIKit.framework in Frameworks */,
+				A4BB19E71989D705008F7C92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB19FB1989D705008F7C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB1A001989D705008F7C92 /* XCTest.framework in Frameworks */,
+				A4BB1A021989D705008F7C92 /* UIKit.framework in Frameworks */,
+				A4BB1A011989D705008F7C92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4BB19DA1989D705008F7C92 = {
+			isa = PBXGroup;
+			children = (
+				A4BB19EC1989D705008F7C92 /* MKInputBar */,
+				A4BB1A051989D705008F7C92 /* MKInputBarTests */,
+				A4BB19E51989D705008F7C92 /* Frameworks */,
+				A4BB19E41989D705008F7C92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4BB19E41989D705008F7C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB19E31989D705008F7C92 /* MKInputBar.app */,
+				A4BB19FE1989D705008F7C92 /* MKInputBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4BB19E51989D705008F7C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB19E61989D705008F7C92 /* Foundation.framework */,
+				A4BB19E81989D705008F7C92 /* CoreGraphics.framework */,
+				A4BB19EA1989D705008F7C92 /* UIKit.framework */,
+				A4BB19FF1989D705008F7C92 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4BB19EC1989D705008F7C92 /* MKInputBar */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB19F51989D705008F7C92 /* AppDelegate.h */,
+				A4BB19F61989D705008F7C92 /* AppDelegate.m */,
+				A4BB19F81989D705008F7C92 /* Images.xcassets */,
+				A4BB19ED1989D705008F7C92 /* Supporting Files */,
+			);
+			path = MKInputBar;
+			sourceTree = "<group>";
+		};
+		A4BB19ED1989D705008F7C92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB19EE1989D705008F7C92 /* MKInputBar-Info.plist */,
+				A4BB19EF1989D705008F7C92 /* InfoPlist.strings */,
+				A4BB19F21989D705008F7C92 /* main.m */,
+				A4BB19F41989D705008F7C92 /* MKInputBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4BB1A051989D705008F7C92 /* MKInputBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB1A0B1989D705008F7C92 /* MKInputBarTests.m */,
+				A4BB1A061989D705008F7C92 /* Supporting Files */,
+			);
+			path = MKInputBarTests;
+			sourceTree = "<group>";
+		};
+		A4BB1A061989D705008F7C92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB1A071989D705008F7C92 /* MKInputBarTests-Info.plist */,
+				A4BB1A081989D705008F7C92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4BB19E21989D705008F7C92 /* MKInputBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB1A0F1989D705008F7C92 /* Build configuration list for PBXNativeTarget "MKInputBar" */;
+			buildPhases = (
+				A4BB19DF1989D705008F7C92 /* Sources */,
+				A4BB19E01989D705008F7C92 /* Frameworks */,
+				A4BB19E11989D705008F7C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKInputBar;
+			productName = MKInputBar;
+			productReference = A4BB19E31989D705008F7C92 /* MKInputBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4BB19FD1989D705008F7C92 /* MKInputBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4BB1A121989D705008F7C92 /* Build configuration list for PBXNativeTarget "MKInputBarTests" */;
+			buildPhases = (
+				A4BB19FA1989D705008F7C92 /* Sources */,
+				A4BB19FB1989D705008F7C92 /* Frameworks */,
+				A4BB19FC1989D705008F7C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BB1A041989D705008F7C92 /* PBXTargetDependency */,
+			);
+			name = MKInputBarTests;
+			productName = MKInputBarTests;
+			productReference = A4BB19FE1989D705008F7C92 /* MKInputBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4BB19DB1989D705008F7C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = makai;
+				TargetAttributes = {
+					A4BB19FD1989D705008F7C92 = {
+						TestTargetID = A4BB19E21989D705008F7C92;
+					};
+				};
+			};
+			buildConfigurationList = A4BB19DE1989D705008F7C92 /* Build configuration list for PBXProject "MKInputBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4BB19DA1989D705008F7C92;
+			productRefGroup = A4BB19E41989D705008F7C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4BB19E21989D705008F7C92 /* MKInputBar */,
+				A4BB19FD1989D705008F7C92 /* MKInputBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4BB19E11989D705008F7C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB19F11989D705008F7C92 /* InfoPlist.strings in Resources */,
+				A4BB19F91989D705008F7C92 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB19FC1989D705008F7C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB1A0A1989D705008F7C92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4BB19DF1989D705008F7C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB19F71989D705008F7C92 /* AppDelegate.m in Sources */,
+				A4BB19F31989D705008F7C92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4BB19FA1989D705008F7C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BB1A0C1989D705008F7C92 /* MKInputBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4BB1A041989D705008F7C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4BB19E21989D705008F7C92 /* MKInputBar */;
+			targetProxy = A4BB1A031989D705008F7C92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4BB19EF1989D705008F7C92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BB19F01989D705008F7C92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4BB1A081989D705008F7C92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4BB1A091989D705008F7C92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4BB1A0D1989D705008F7C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4BB1A0E1989D705008F7C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BB1A101989D705008F7C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
+				INFOPLIST_FILE = "MKInputBar/MKInputBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4BB1A111989D705008F7C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
+				INFOPLIST_FILE = "MKInputBar/MKInputBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4BB1A131989D705008F7C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKInputBar.app/MKInputBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MKInputBarTests/MKInputBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A4BB1A141989D705008F7C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKInputBar.app/MKInputBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
+				INFOPLIST_FILE = "MKInputBarTests/MKInputBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4BB19DE1989D705008F7C92 /* Build configuration list for PBXProject "MKInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB1A0D1989D705008F7C92 /* Debug */,
+				A4BB1A0E1989D705008F7C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4BB1A0F1989D705008F7C92 /* Build configuration list for PBXNativeTarget "MKInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB1A101989D705008F7C92 /* Debug */,
+				A4BB1A111989D705008F7C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4BB1A121989D705008F7C92 /* Build configuration list for PBXNativeTarget "MKInputBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BB1A131989D705008F7C92 /* Debug */,
+				A4BB1A141989D705008F7C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4BB19DB1989D705008F7C92 /* Project object */;
+}
