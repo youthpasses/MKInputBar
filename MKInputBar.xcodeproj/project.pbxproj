@@ -19,6 +19,9 @@
 		A4BB1A021989D705008F7C92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB19EA1989D705008F7C92 /* UIKit.framework */; };
 		A4BB1A0A1989D705008F7C92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4BB1A081989D705008F7C92 /* InfoPlist.strings */; };
 		A4BB1A0C1989D705008F7C92 /* MKInputBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB1A0B1989D705008F7C92 /* MKInputBarTests.m */; };
+		A4BB1A181989D739008F7C92 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BB1A171989D739008F7C92 /* libmp3lame.a */; };
+		A4BB1A1D1989D749008F7C92 /* MKInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB1A1A1989D749008F7C92 /* MKInputBar.m */; };
+		A4BB1A1E1989D749008F7C92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BB1A1C1989D749008F7C92 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,14 @@
 		A4BB1A071989D705008F7C92 /* MKInputBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKInputBarTests-Info.plist"; sourceTree = "<group>"; };
 		A4BB1A091989D705008F7C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4BB1A0B1989D705008F7C92 /* MKInputBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKInputBarTests.m; sourceTree = "<group>"; };
+		A4BB1A161989D739008F7C92 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		A4BB1A171989D739008F7C92 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		A4BB1A191989D749008F7C92 /* MKInputBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInputBar.h; sourceTree = "<group>"; };
+		A4BB1A1A1989D749008F7C92 /* MKInputBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInputBar.m; sourceTree = "<group>"; };
+		A4BB1A1B1989D749008F7C92 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4BB1A1C1989D749008F7C92 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4BB1A1F1989D805008F7C92 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A4BB1A211989D811008F7C92 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4BB19E91989D705008F7C92 /* CoreGraphics.framework in Frameworks */,
+				A4BB1A181989D739008F7C92 /* libmp3lame.a in Frameworks */,
 				A4BB19EB1989D705008F7C92 /* UIKit.framework in Frameworks */,
 				A4BB19E71989D705008F7C92 /* Foundation.framework in Frameworks */,
 			);
@@ -96,6 +108,8 @@
 		A4BB19E51989D705008F7C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4BB1A211989D811008F7C92 /* CoreAudio.framework */,
+				A4BB1A1F1989D805008F7C92 /* AVFoundation.framework */,
 				A4BB19E61989D705008F7C92 /* Foundation.framework */,
 				A4BB19E81989D705008F7C92 /* CoreGraphics.framework */,
 				A4BB19EA1989D705008F7C92 /* UIKit.framework */,
@@ -107,8 +121,13 @@
 		A4BB19EC1989D705008F7C92 /* MKInputBar */ = {
 			isa = PBXGroup;
 			children = (
+				A4BB1A151989D72E008F7C92 /* lame */,
 				A4BB19F51989D705008F7C92 /* AppDelegate.h */,
 				A4BB19F61989D705008F7C92 /* AppDelegate.m */,
+				A4BB1A191989D749008F7C92 /* MKInputBar.h */,
+				A4BB1A1A1989D749008F7C92 /* MKInputBar.m */,
+				A4BB1A1B1989D749008F7C92 /* ViewController.h */,
+				A4BB1A1C1989D749008F7C92 /* ViewController.m */,
 				A4BB19F81989D705008F7C92 /* Images.xcassets */,
 				A4BB19ED1989D705008F7C92 /* Supporting Files */,
 			);
@@ -142,6 +161,15 @@
 				A4BB1A081989D705008F7C92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4BB1A151989D72E008F7C92 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				A4BB1A161989D739008F7C92 /* lame.h */,
+				A4BB1A171989D739008F7C92 /* libmp3lame.a */,
+			);
+			name = lame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4BB19F71989D705008F7C92 /* AppDelegate.m in Sources */,
+				A4BB1A1D1989D749008F7C92 /* MKInputBar.m in Sources */,
+				A4BB1A1E1989D749008F7C92 /* ViewController.m in Sources */,
 				A4BB19F31989D705008F7C92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +390,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
 				INFOPLIST_FILE = "MKInputBar/MKInputBar-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MKInputBar",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,7 +409,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKInputBar/MKInputBar-Prefix.pch";
 				INFOPLIST_FILE = "MKInputBar/MKInputBar-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MKInputBar",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
